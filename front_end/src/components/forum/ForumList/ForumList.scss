@@ -1,0 +1,96 @@
+.station-main-frame {
+  margin: 0 auto;
+  width: 69rem;
+  .station-main-button {
+    text-align: right;
+    margin-bottom: 1rem;
+  }
+  .forum-list {
+    border: 1px solid #707070;
+    border-radius: 1.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin: 0 auto;
+    width: 69rem;
+    background: #ffffff;
+    .row {
+      font-weight: bold;
+      margin: 0.8rem auto;
+      width: 65rem;
+      .row-center-name {
+        margin-left: 8rem;
+      }
+      .row-doctor-name {
+        margin-left: 10rem;
+      }
+      .row-eval-count {
+        margin-left: 7rem;
+      }
+      .row-title {
+        text-overflow: ellipsis;
+        width: 40rem;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+      .row-answer-count {
+        margin-left: 46rem;
+      }
+      .row-createdAt {
+        float: right;
+        width: 8rem;
+      }
+    }
+    .row-hr {
+      border-bottom: 0;
+      margin-bottom: 1rem;
+    }
+
+    .content-item {
+      margin: 1rem auto;
+      width: 65rem;
+      .content-title-block {
+        display: inline-block;
+        width: 46.5rem;
+        margin-right: 4rem;
+        .content-link {
+          text-decoration: none;
+          .title {
+            color: #2c3f77;
+            font-weight: bold;
+          }
+        }
+      }
+      .answer-count {
+        display: inline-block;
+      }
+      .content-createdAt {
+        display: inline-block;
+        margin-left: 4.5rem;
+      }
+
+      .area {
+        color: #2c3f77;
+        font-weight: bold;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .center-name {
+        color: #2c3f77;
+        font-weight: bold;
+        margin-left: 3.5rem;
+      }
+      .doctor-name {
+        color: #2c3f77;
+        font-weight: bold;
+        margin-left: 5rem;
+      }
+      .eval-count {
+        margin-left: 16rem;
+      }
+    }
+    .content-hr {
+      border-bottom: 0;
+    }
+  }
+}

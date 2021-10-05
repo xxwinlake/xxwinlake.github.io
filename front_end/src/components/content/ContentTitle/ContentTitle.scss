@@ -1,0 +1,19 @@
+.content-title {
+  margin: 0 auto;
+  width: 72rem;
+  margin-bottom: 2rem;
+  .nameKr {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .nameEn {
+    font-size: 1.1rem;
+    &.bracket {
+      color: #FAFAFA;
+    }
+  }
+  .button {
+    float: right;
+    margin-top: 0.5rem;
+  }
+}

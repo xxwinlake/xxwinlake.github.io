@@ -1,0 +1,40 @@
+.header {
+  background: #ffffff;
+  color: #707070;
+  font-family: '맑은 고딕', 'Malgun Gothic', sans-serif;
+  text-align: center;
+
+  .header-content {
+    height: 4rem;
+    margin: 0 auto;  // 가운데 정렬
+    width: 63rem;
+    padding-top: 0.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+    // 내부 아이템 가운데 정렬
+    display: flex;
+    align-items: center;
+
+    .brand {
+      margin-top: 0.9rem;
+    }
+
+    .menu {
+      margin: 0 auto;
+      margin-top: 0.4rem;
+    }
+    
+    .auth {
+      
+    }
+  }
+
+  .line {
+    border: 0;
+    min-width: 73rem;
+    background-color: #2C3F77;
+    height: 1.5px;
+    margin: 0;
+  }
+}
